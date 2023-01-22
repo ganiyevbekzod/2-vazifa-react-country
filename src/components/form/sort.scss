@@ -1,0 +1,54 @@
+.sort {
+  padding: 48px 0;
+}
+
+.sort__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sort__label {
+  position: absolute;
+  left: 157px;
+  width: 18px;
+  height: 18px;
+  background-image: url('./search-icon.svg');
+}
+
+.sort__input {
+  padding: 18px 270px 18px 74px;
+  border: 1.5px solid transparent;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 9px #0000000e;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sort__input:focus {
+  border: 1.5px solid #5f5e5e;
+}
+
+.sort__input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #848484;
+}
+
+.sort__select {
+  padding: 18px 77px 18px 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1.5px solid transparent;
+  background: #ffffff;
+  box-shadow: 0px 2px 9px #0000000e;
+  border-radius: 5px;
+  color: #111517;
+  outline: none;
+}
+
+.sort__select:focus {
+  border: 1.5px solid #5f5e5e;
+}
